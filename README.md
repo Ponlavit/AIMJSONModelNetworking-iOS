@@ -22,7 +22,9 @@ pod "AIMJSONModelNetworking-iOS"
 
 ## Author
 
-Tzoani, darksky_ddd@hotmail.com
+Ponlavit, ponlavit@do.in.th
+Ton, darksky_ddd@hotmail.com
+Nizaii, lalida.jar@gmail.com
 
 ## License
 

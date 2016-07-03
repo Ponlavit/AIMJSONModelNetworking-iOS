@@ -10,7 +10,7 @@
 #import "GCDSingleton.h"
 #import "BaseModel.h"
 #import "NSString+EncoderUTF8.h"
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface RAWSManager : NSObject
 + (id)defaultManager;

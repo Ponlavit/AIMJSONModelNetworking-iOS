@@ -6,7 +6,7 @@
 //
 
 #import "UIImageView+Network.h"
-#import "EGOCache.h"
+#import <EGOCache/EGOCache.h>
 #import <objc/runtime.h>
 
 static char URL_KEY;

@@ -13,7 +13,6 @@
 #import "DeleteRequestObject.h"
 #import "AddRequestObject.h"
 #import "TransactionManager.h"
-#import "AFNetworking.h"
 #import "User.h"
 
 #define RESPONSE_STATUS_CODE_INTERNET_PROBLEM @"100"

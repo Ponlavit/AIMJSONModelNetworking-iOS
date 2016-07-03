@@ -7,7 +7,7 @@
 //
 
 #import "RestJSONWebServiceManager.h"
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 #import "RAWSManager.h"
 
 #define KEY_RESULT @"entries"

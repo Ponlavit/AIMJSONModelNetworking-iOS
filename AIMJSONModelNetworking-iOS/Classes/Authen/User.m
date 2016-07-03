@@ -8,8 +8,8 @@
 
 #import "User.h"
 #import "NSString+EncoderUTF8.h"
-#import "AFNetworking.h"
-#import "EGOCache.h"
+#import <AFNetworking/AFNetworking.h>
+#import <EGOCache/EGOCache.h>
 #import "SWConfiguration.h"
 
 #define USER_CACHE_KEY @"USERSAVEXXNS"

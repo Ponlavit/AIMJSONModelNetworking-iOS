@@ -10,7 +10,7 @@
 #import "NSString+EncoderUTF8.h"
 #import "GCDSingleton.h"
 #import "BaseModel.h"
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 #import "UpdateRequestObject.h"
 
 #define APP_ID @"SWF"

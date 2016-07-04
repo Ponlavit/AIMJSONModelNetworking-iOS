@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AIMJSONModelNetworking-iOS'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'The model networking that support json and support connection to web interface'
 
 # This description is used to generate tags and improve search results.
@@ -28,14 +28,14 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.requires_arc = true
   s.source_files = 'AIMJSONModelNetworking-iOS/Classes/**/*'
+  s.resources = 'AIMJSONModelNetworking-iOS/Assets/**/*'
 
-  #s.resources = 'AIMJSONModelNetworking-iOS/Assets/**/*'
   # s.resource_bundles = {
   #   'AIMJSONModelNetworking-iOS' => ['AIMJSONModelNetworking-iOS/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit', 'CoreData'
   s.dependency 'AFNetworking', '~> 3.0'
   s.dependency 'EGOCache'
 end
